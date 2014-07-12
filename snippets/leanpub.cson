@@ -1,0 +1,35 @@
+# Markdown snippets for Leanpub authors
+# Created by Maksim Surguy
+# Enjoy!
+
+'.source.gfm':
+  'lp-image':
+    'prefix' : 'lp-img'
+    'body': '![$1](images/$2)'
+  'lp-code' :
+    'prefix' : 'lp-code'
+    'body': '{title="Listing $1", lang=${2:html}, linenos=off}\n~~~~~~~\n$3\n~~~~~~~'
+  'lp-aside':
+    'prefix' : 'lp-aside'
+    'body': 'A> ## $1\nA>\nA> $2'
+  'lp-info':
+    'prefix' : 'lp-info'
+    'body': 'I> ## $1\nI>\nI> $2'
+  'lp-error':
+    'prefix' : 'lp-error'
+    'body': 'E> ## $1\nE>\nE> $2'
+  'lp-question':
+    'prefix' : 'lp-question'
+    'body': 'Q> ## $1\nQ>\nQ> $2'
+  'lp-tip':
+    'prefix' : 'lp-tip'
+    'body': 'T> ## $1\nT>\nT> $2'
+  'lp-warning':
+    'prefix' : 'lp-warning'
+    'body': 'W> ## $1\nW>\nW> $2'
+  'lp-discussion':
+    'prefix' : 'lp-discussion'
+    'body': 'D> ## $1\nD>\nD> $2'
+  'lp-exercise':
+    'prefix' : 'lp-exercise'
+    'body': 'X> ## $1\nX>\nX> $2'
