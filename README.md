@@ -4,15 +4,13 @@ I've created these snippets for Leanpub authors to quickly insert blocks of Lean
 
 ## Installation and Usage
 
-Install this package from Atom package manager.
+Install this package from Atom package manager and restart Atom editor.
 
-Try out typing 'lp-code' and pressing 'Tab' key on your keyboard. You should get the following:
+Try out typing 'lp-tip' in any Markdown file and pressing 'Tab' key on your keyboard. You should get the following code generated for you:
 ```
-{title="Listing ", lang=html, linenos=off}
-~~~~~~~
-
-~~~~~~~
-
+T> ## 
+T>
+T> 
 ```
 
 You can use the following snippets :
